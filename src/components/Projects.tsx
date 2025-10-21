@@ -7,48 +7,44 @@ const projects = [
   {
     title: "شركة هناجر ومستودعات بالرياض تركيب جميع أنواع الهناجر بجودة عالية وأقل الأسعار",
     description: "شركة هناجر ومستودعات بالرياض تركيب جميع أنواع الهناجر بجودة عالية وأقل الأسعار نحن في…",
-    image: "/services/1.webp",
+        image: "/projects/1.webp",
     link: "/warehouses-detail",
   },
   {
     title: "تكسيات بديل الخشب في الرياض",
     description: "تكسيات بديل الخشب في الرياض: الحل العصري للجمال والمتانة تكسيات بديل الخشب أصبحت اليوم من…",
-    image: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800",
-    link: "/cladding",
+    image: "/projects/2.webp",
+        link: "/cladding",
   },
   {
     title: "ساندوتش بانل الرياض أفضل حلول العزل والبناء بسعر المتر المثالي",
     description: "ساندوتش بانل الرياض أفضل حلول العزل والبناء بسعر المتر المثالي الساندوتش بانل في الرياض…",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800",
-    link: "/sandwich-panel",
+    image: "/projects/3.webp",
+        link: "/sandwich-panel",
   },
   {
     title: "تحويش أراضي الرياض حماية وترسيم بأعلى جودة",
     description: "تحويش أراضي الرياض: حماية وترسيم بأعلى جودة تحويش أراضي الرياض هو الخطوة الأولى التي تضمن…",
-    image: "https://images.unsplash.com/photo-1597476392583-97ef0d4b8815?q=80&w=800",
-    link: "/fencing",
+    image: "/projects/4.webp",
+        link: "/fencing",
   },
   {
     title: "تلبيس أبواب بديل الخشب في الرياض",
     description: "تلبيس أبواب بديل الخشب في الرياض: اجعل باب منزلك عامرًا بالفن والأناقة يُعتبر تلبيس الأبواب…",
-    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=800",
+    image: "/projects/5.webp",
     link: "/doors",
   },
   {
     title: "سواتر الرياض تركيب سواتر قماش وحديد جودة عالية",
     description: "سواتر الرياض: تركيب سواتر قماش وحديد وبلاستيك وخشب بأعلى جودة تُعتبر سواتر الرياض من أهم…",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800",
-  },
+
+    image: "/projects/6.webp", link: "/shutters",  },
   {
     title: "مظلات سيارات الرياض أفضل مظلات سيارات متحركة",
     description: "مظلات سيارات الرياض: أفضل مظلات سيارات متحركة وحديد ومودرن بأسعار تنافسية تُعتبر مظلات سيارات الرياض…",
-    image: "https://images.unsplash.com/photo-1582737064290-5e3c7e6d2969?q=80&w=800",
+    image: "/projects/7.webp", link: "/canopies",
   },
-  {
-    title: "هناجر الرياض الشركة الرائدة في بناء وتركيب هناجر ومستودعات عالية الجودة",
-    description: "هناجر الرياض: الشركة الرائدة في بناء وتركيب هناجر ومستودعات عالية الجودة تُعد هناجر الرياض من…",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
-  },
+
 ];
 
 export const Projects = () => {

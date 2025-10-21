@@ -1,49 +1,47 @@
 const galleryImages = [
   {
-    title: "دهانات خارجية بالرياض احدث انواع والوان واجهات عمائر",
-    image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=800",
+    image: "/Gallery/1.webp",
   },
   {
-    title: "دليل شامل لاختيار أفضل دهانات خارجية للمنازل",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800",
+
+    image: "/Gallery/2.webp",
   },
   {
-    title: "معلم دهانات  - تركيب ديكور شيبورد",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800",
+    
+    image: "/Gallery/3.webp",
   },
   {
-    title: " الشاشات - لمسة عصرية وفخمة",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800",
+   
+    image: "/Gallery/4.webp",
   },
   {
-    title: "أفضل  شاشات الرياض مودرن وخشب",
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800",
+    image: "/Gallery/5.webp",
   },
   {
-    title: "ديكور شاشة تلفزيون 2025",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800",
+ 
+    image: "/Gallery/6.webp",
   },
   {
-    title: "تصميم وتنفيذ ديكور خلفيات شاشات جبس بورد",
-    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800",
+   
+    image: "/Gallery/7.webp",
   },
   {
-    title: "تصاميم  شاشات تلفزيون مودرن وعصرية",
-    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=800",
+   
+    image: "/Gallery/8.webp",
   },
   {
-    title: "ديورات شاشات خشب الشيبورد",
-    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=800",
+
+    image: "/Gallery/9.webp",
   },
   {
-    title: "ديكور شاشة مودرن الرياض بأحدث التصاميم",
-    image: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=800",
+    
+    image: "/Gallery/10.webp",
   },
 ];
 
 export const Gallery = () => {
   return (
-    <section id="gallery" className="py-24 bg-background">
+    <section id="gallery" className="py-10 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-black text-foreground mb-6">
@@ -64,16 +62,12 @@ export const Gallery = () => {
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
                   src={item.image} 
-                  alt={item.title}
-                  loading="lazy"
+                          alt=""
+
                   className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-2"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
-                <h3 className="text-primary-foreground font-bold text-lg md:text-xl text-shadow transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                  {item.title}
-                </h3>
-              </div>
+
             </div>
           ))}
         </div>

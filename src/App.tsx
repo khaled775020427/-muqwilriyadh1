@@ -9,10 +9,10 @@ import FencingPage from "./pages/FencingPage";
 import SandwichPanelPage from "./pages/SandwichPanelPage";
 import ShuttersPage from "./pages/ShuttersPage";
 import CanopiesPage from "./pages/CanopiesPage";
-import WarehousesPage from "./pages/WarehousesPage";
 import WarehousesDetailPage from "./pages/WarehousesDetailPage";
 import CladdingPage from "./pages/CladdingPage";
 import DoorsPage from "./pages/DoorsPage";
+import FloatingButtons from "./components/FloatingButtons";
 
 const queryClient = new QueryClient();
 
@@ -28,13 +28,13 @@ const App = () => (
           <Route path="/sandwich-panel" element={<SandwichPanelPage />} />
           <Route path="/shutters" element={<ShuttersPage />} />
           <Route path="/canopies" element={<CanopiesPage />} />
-          <Route path="/warehouses" element={<WarehousesPage />} />
           <Route path="/warehouses-detail" element={<WarehousesDetailPage />} />
           <Route path="/cladding" element={<CladdingPage />} />
           <Route path="/doors" element={<DoorsPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <FloatingButtons />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

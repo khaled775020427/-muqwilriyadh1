@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 // قائمة الخدمات مع صور محلية
 const services = [
-  { title: "ابواب بديل الخشب", image: "/services/1.webp", link: "/doors" },
-  { title: "تحويش اراضي", image: "/services/2.webp", link: "/fencing" },
-  { title: "تكسيات بديل الخشب", image: "/services/3.webp", link: "/cladding" },
-  { title: "ساندوتش بانل", image: "/services/5.webp", link: "/sandwich-panel" },
-  { title: "سواتر", image: "/services/6.webp", link: "/shutters" },
-  { title: "مظلات", image: "/services/7.webp", link: "/canopies" },
-  { title: "هناجر ومستودعات", image: "/services/8.webp", link: "/warehouses" },
+  { title: "ابواب بديل الخشب", image: "/services/1.webp" },
+  { title: "تحويش اراضي", image: "/services/2.webp" },
+  { title: "تكسيات بديل الخشب", image: "/services/3.webp" },
+  { title: "ساندوتش بانل", image: "/services/5.webp" },
+  { title: "سواتر", image: "/services/6.webp" },
+  { title: "مظلات", image: "/services/7.webp" },
+  { title: "هناجر ومستودعات", image: "/services/8.webp" },
 ];
 
 export const Services = () => {
@@ -41,7 +41,7 @@ export const Services = () => {
         {/* البطاقات */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 md:gap-8">
           {services.map((service, index) => (
-            <Link key={index} to={service.link}>
+         
               <Card
                 className="group overflow-hidden cursor-pointer border border-primary/30 hover:border-primary shadow-md hover:shadow-2xl rounded-2xl transition-all duration-500 bg-gradient-to-b from-background/60 to-background/90 backdrop-blur-md animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -58,8 +58,7 @@ export const Services = () => {
                   </h3>
                 </div>
               </Card>
-            </Link>
-          ))}
+                      ))}
         </div>
       </div>
     </section>

@@ -65,8 +65,26 @@ export const Footer = () => {
 
         <div className="border-t border-white/20 pt-8 text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <p className="text-white/90 text-lg">
-            © {currentYear} مقاول هناجر الرياض. جميع الحقوق محفوظة.
-          </p>
+          <div className="text-center text-lg text-white font-medium">
+  © {currentYear} جميع الحقوق محفوظة | 
+  <a 
+    href="https://wa.me/967775020427?text=مرحباً%20خالد،%20أرغب%20في%20الاستفسار%20عن%20خدماتكم" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mx-2 text-white hover:text-yellow-300 transition-colors duration-300 font-bold text-xl"
+  >
+    Khaled Maresh
+  </a>
+  | 
+  <a 
+    href="https://wa.me/967770370248?text=مرحباً%20وهيب،%20أرغب%20في%20الاستفسار%20عن%20خدماتكم" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mx-2 text-white hover:text-yellow-300 transition-colors duration-300 font-bold text-xl"
+  >
+  Waheeb Al-Hadi
+  </a>
+</div>          </p>
         </div>
       </div>
     </footer>
