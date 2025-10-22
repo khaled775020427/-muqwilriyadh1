@@ -5,10 +5,11 @@ import { CheckCircle2 } from "lucide-react";
 const servicesList = [
   "مقاولات هناجر ومستودعات",
   "مظلات مواقف سيارات",
+  "سواتر",
   "تلبيس ابواب بديل الخشب",
   "بديل الرخام",
   "ورق جدران",
-  "سواتر",
+  "ساتر ليزر",
   "ساندوتش بانل",
 ];
 
@@ -61,9 +62,19 @@ export const DetailedServices = () => {
             </Card>
 
             {/* زر الطلب */}
-            <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6 w-full sm:w-auto">
-              اطلب الآن
-            </Button>
+            <Button 
+  size="lg" 
+  className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6 w-full sm:w-auto"
+  asChild
+>
+  <a 
+    href="https://wa.me/966552132619" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    اطلب الآن
+  </a>
+</Button>
           </div>
 
           {/* الصور - معدلة لتكون متناسقة تماماً */}

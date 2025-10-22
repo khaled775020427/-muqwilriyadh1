@@ -51,6 +51,8 @@ export const Header = () => {
             <Link to="/shutters" className="text-gray-700 hover:text-primary transition-colors">سواتر</Link>
             <Link to="/sandwich-panel" className="text-gray-700 hover:text-primary transition-colors">ساندوتش بانل</Link>
             <Link to="/fencing" className="text-gray-700 hover:text-primary transition-colors">تحويش أراضي</Link>
+            <Link to="/LaserShutters" className="text-gray-700 hover:text-primary transition-colors">ساتر ليزر</Link>
+
           </nav>
 
           {/* ✅ الأيقونات والأزرار */}
@@ -96,7 +98,8 @@ export const Header = () => {
               <Link to="/shutters" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-primary transition-colors py-2">سواتر</Link>
               <Link to="/sandwich-panel" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-primary transition-colors py-2">ساندوتش بانل</Link>
               <Link to="/fencing" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-primary transition-colors py-2">تحويش أراضي</Link>
-              
+              <Link to="/LaserShutters" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-primary transition-colors py-2">ساتر ليزر</Link>
+
               {/* زر طلب الآن في القائمة الجوالية */}
               <div className="pt-2 border-t border-gray-200 mt-2">
                 <Button 

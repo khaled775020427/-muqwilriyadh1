@@ -1,5 +1,5 @@
 import { Card } from "./ui/card";
-import { Warehouse, Car, DoorOpen, Layers, Home, Shield, Fence, Building2 } from "lucide-react";
+import { Warehouse, Car, DoorOpen, Layers, Home, Shield, Fence, Building2 ,Scissors} from "lucide-react";
 
 const features = [
   {
@@ -37,6 +37,11 @@ const features = [
     icon: Fence,
     title: "تحويش أراضي",
     description: "بأسوار خرسانية أو معدنية مع ضمان الجودة"
+  },
+  {
+    icon: Scissors,
+    title: "سواتر ليزر حديثة",
+    description: "خصوصية وأناقة تجمعها سواتر الليزر العصرية"
   }
 ];
 

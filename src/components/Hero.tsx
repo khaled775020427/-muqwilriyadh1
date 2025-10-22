@@ -27,7 +27,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground/95 font-cairo leading-relaxed max-w-3xl mx-auto text-shadow-sm" style={{ animationDelay: '0.2s' }}>
-            نحن فريق عمل متخصص نقدم خدمات احترافية في <strong>تركيب هناجر ومستودعات بالرياض</strong> بأعلى جودة ووفق أحدث المعايير الهندسية. كما نوفر جميع حلول المقاولات الخارجية من <strong>تركيب مظلات مواقف سيارات، تركيب ديكورات شيبورد، وسواتر شرائح</strong>.
+            نحن فريق عمل متخصص نقدم خدمات احترافية في <strong>تركيب هناجر ومستودعات بالرياض</strong> بأعلى جودة ووفق أحدث المعايير الهندسية. كما نوفر جميع حلول المقاولات الخارجية من <strong>تركيب مظلات مواقف سيارات، وسواتر ليزر</strong>.
           </p>
 {/* الفقرة الثانية */}
 <p

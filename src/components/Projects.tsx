@@ -44,6 +44,12 @@ const projects = [
     description: "مظلات سيارات الرياض: أفضل مظلات سيارات متحركة وحديد ومودرن بأسعار تنافسية تُعتبر مظلات سيارات الرياض…",
     image: "/projects/7.webp", link: "/canopies",
   },
+  {
+    title: "ساتر ليزر الرياض أحدث تصاميم سواتر الليزر العصرية",
+    description: "ساتر ليزر الرياض: أحدث تصاميم سواتر الليزر العصرية بتقنيات القص الدقيقة. نوفر سواتر ليزر حديدية وألمنيوم…",
+    image: "/projects/9.webp", 
+    link: "/LaserShutters",
+  },
 
 ];
 
@@ -98,11 +104,14 @@ export const Projects = () => {
                   
                   {/* الزر - ثابت في الأسفل */}
                   <div className="mt-auto pt-4">
-                    <Button variant="link" className="p-0 gap-2 font-bold text-base hover:scale-105 transition-transform">
-                      اقرأ المزيد
-                      <ArrowLeft className="w-4 h-4 rotate-180" />
-                    </Button>
-                  </div>
+  <Button 
+    variant="link" 
+    className="p-0 gap-2 font-bold text-base hover:scale-105 transition-transform bg-gradient-to-r from-[#8B6B3D] to-[#A67C52] text-white px-4 py-2 rounded-lg hover:from-[#7A5A32] hover:to-[#8B6B3D] shadow-md"
+  >
+    اقرأ المزيد
+    <ArrowLeft className="w-4 h-4 rotate-180" />
+  </Button>
+</div>
                 </div>
               </Card>
             );

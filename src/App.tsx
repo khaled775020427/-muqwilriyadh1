@@ -12,6 +12,7 @@ import CanopiesPage from "./pages/CanopiesPage";
 import WarehousesDetailPage from "./pages/WarehousesDetailPage";
 import CladdingPage from "./pages/CladdingPage";
 import DoorsPage from "./pages/DoorsPage";
+import LaserShuttersPage from "./pages/LaserShuttersPage";
 import FloatingButtons from "./components/FloatingButtons";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,8 @@ const App = () => (
           <Route path="/warehouses-detail" element={<WarehousesDetailPage />} />
           <Route path="/cladding" element={<CladdingPage />} />
           <Route path="/doors" element={<DoorsPage />} />
+          <Route path="/LaserShutters" element={<LaserShuttersPage/>} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

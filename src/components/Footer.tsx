@@ -1,5 +1,5 @@
 import { Phone, Instagram, MessageCircle } from "lucide-react";
-
+import { Link } from 'react-router-dom';
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -22,15 +22,35 @@ export const Footer = () => {
           </div>
 
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <h4 className="text-xl md:text-2xl font-bold mb-6 text-shadow">خدماتنا</h4>
-            <ul className="space-y-3 text-white/90 text-lg">
-              <li className="hover:text-secondary transition-colors cursor-pointer">هناجر ومستودعات</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">مظلات سيارات</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">سواتر</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">ساندوتش بانل</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">تحويش أراضي</li>
-            </ul>
-          </div>
+  <h4 className="text-xl md:text-2xl font-bold mb-6 text-shadow">خدماتنا</h4>
+  <ul className="space-y-3 text-white/90 text-lg">
+    <li>
+      <Link to="/warehouses-detail" className="hover:text-secondary transition-colors cursor-pointer">
+        هناجر ومستودعات
+      </Link>
+    </li>
+    <li>
+      <Link to="/canopies" className="hover:text-secondary transition-colors cursor-pointer">
+        مظلات سيارات
+      </Link>
+    </li>
+    <li>
+      <Link to="/shutters" className="hover:text-secondary transition-colors cursor-pointer">
+        سواتر
+      </Link>
+    </li>
+    <li>
+      <Link to="/sandwich-panel" className="hover:text-secondary transition-colors cursor-pointer">
+        ساندوتش بانل
+      </Link>
+    </li>
+    <li>
+      <Link to="/fencing" className="hover:text-secondary transition-colors cursor-pointer">
+        تحويش أراضي
+      </Link>
+    </li>
+  </ul>
+</div>
 
           <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <h4 className="text-xl md:text-2xl font-bold mb-6 text-shadow">تواصل معنا</h4>

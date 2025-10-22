@@ -10,6 +10,8 @@ const services = [
   { title: "سواتر", image: "/services/6.webp" },
   { title: "مظلات", image: "/services/7.webp" },
   { title: "هناجر ومستودعات", image: "/services/8.webp" },
+  { title: "ساتر ليزار", image: "/services/9.webp" },
+
 ];
 
 export const Services = () => {
@@ -32,7 +34,7 @@ export const Services = () => {
           >
             نقدم حلولًا متكاملة في مجال{" "}
             <strong className="text-foreground font-semibold">
-              الهناجر والمستودعات – مظلات – سواتر – بديل الخشب – تكسيات – ساندوتش بانل والمقاولات العامة
+              الهناجر والمستودعات – مظلات – سواتر ليزر – بديل الخشب – تكسيات – ساندوتش بانل والمقاولات العامة
             </strong>{" "}
             بأعلى معايير الجودة، سرعة الإنجاز، وتكلفة تنافسية تضمن رضا عملائنا.
           </p>
